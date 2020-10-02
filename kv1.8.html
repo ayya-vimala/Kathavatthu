@@ -5,15 +5,37 @@
 <meta name='author' content='Shwe Zan Aung, C.A.F. Rhys Davids'>
 <style>
 	.add {
-		color: grey;
+		color: orange;
 	}
 
-	.ref,
-	.pc {
+	.ref {
 		float: right;
 		color: grey;
 		font-size: 10px;
 		text-decoration: none;
+	}
+
+	.pc {
+		float: right;
+		color: green;
+		font-size: 12px;
+		text-decoration: none;
+	}
+
+	.pc:after {
+		content: attr(id);
+	}
+
+	.pe em {
+		color: red;
+	}
+
+	em {
+		color: blue;
+	}
+
+	i {
+		color: green;
 	}
 </style>
 </head>
